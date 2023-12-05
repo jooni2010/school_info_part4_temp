@@ -1,6 +1,6 @@
 let tempurture = 0
 input.onButtonPressed(Button.B, function () {
-    if (tempurture >= 35) {
+    if (tempurture >= 30) {
         basic.showString("hot")
     }
 })
